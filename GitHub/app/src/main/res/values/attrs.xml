@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Topbar">
+        <!--左边的样式整体-->
+            <!--左边整体背景-->
+        <attr name="leftDrawable" format="color|reference"/>
+            <!--左边的ImageView-->
+        <attr name="leftIvDrawable" format="color|reference"/>
+        <attr name="leftTextColor" format="color"/>
+        <attr name="leftText" format="string"/>
+        <attr name="leftTextSize" format="dimension"/>
+        <!--右边的样式-->
+            <!--右边整体背景-->
+        <attr name="rightDrawable" format="color|reference" />
+            <!--右边的ImageView-->
+        <attr name="rightIvDrawable" format="color|reference"/>
+        <attr name="rightTextColor" format="color" />
+        <attr name="rightText" format="string" />
+        <attr name="rightTextSize" format="dimension"/>
+        <!--中间的Titie-->
+        <attr name="tvTitleTextColor" format="color" />
+        <attr name="tvTitleText" format="string" />
+        <attr name="tvTitleTextSize" format="dimension"/>
+
+        <!--设置左边和右边的是否隐藏-->
+        <attr name="leftVisibility" format="boolean"/>
+        <attr name="rightVisibility" format="boolean"/>
+    </declare-styleable>
+</resources>

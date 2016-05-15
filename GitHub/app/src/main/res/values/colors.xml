@@ -3,4 +3,10 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="colorWrite">#ffffff</color>
+    <color name="colorText">#000000</color>
+    <color name="colorBtn">#02ff66</color>
+
+    <!--设置标题的背景颜色-->
+    <color name="titleBackground">#029dff</color>
 </resources>

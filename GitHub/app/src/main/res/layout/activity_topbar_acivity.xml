@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xxf.myviewutils.TopbarAcivity">
+
+    <!--
+        app:leftIvDrawable="@mipmap/icon_fanhui_bai":设置左边图片
+        app:leftText="你好"：设置左边的文字
+        app:leftTextColor="@color/colorText"：设置左边的文字
+        app:leftDrawable="@color/colorAccent"：设置左边的背景
+        app:rightDrawable="@color/colorBtn"：设置右边的背景
+        app:rightIvDrawable="@mipmap/icon_genduo"：设置右边的图片
+        app:rightText="你好么"：设置右边的文字
+        app:rightTextColor="@color/colorText"：设置右边的文字
+        app:rightTextSize="14px"：设置文字大小，目前为止用px正常，其他的还没考虑
+        app:tvTitleText="我在中间"：设置中间的文字
+        app:tvTitleTextColor="@color/colorText"
+        app:tvTitleTextSize="12px"
+        app:leftTextSize="15px"
+        app:leftVisibility="true"：设置左边的是否显示，默认为true
+        app:rightVisibility="true"设置右边的。。。可以代码控制
+
+    -->
+    <com.xxf.myviewutils.customview.Topbar
+        android:id="@+id/custom_tv"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        app:leftIvDrawable="@mipmap/icon_fanhui_bai"
+        app:leftText="你好"
+        app:leftTextColor="@color/colorText"
+        app:leftDrawable="@color/colorAccent"
+        app:rightDrawable="@color/colorBtn"
+        app:rightIvDrawable="@mipmap/icon_genduo"
+        app:rightText="你好么"
+        app:rightTextColor="@color/colorText"
+        app:rightTextSize="14px"
+        app:tvTitleText="我在中间"
+        app:tvTitleTextColor="@color/colorText"
+        app:tvTitleTextSize="12px"
+        app:leftTextSize="15px"
+        app:leftVisibility="true"
+        app:rightVisibility="true"
+        />
+</RelativeLayout>
