@@ -22,18 +22,19 @@ public class TopbarAcivity extends AppCompatActivity {
         setContentView(R.layout.activity_topbar_acivity);
         ButterKnife.bind(this);
 
+        Topbar customTv = (Topbar) findViewById(R.id.custom_tv);
         customTv.setLeftIsvisable(true);//设置左边的显示，默认显示可以不用设置
         customTv.setRIsvisable(false);//设置右边的隐藏
         //设置左边和右边LinearLayout的监听事件
         customTv.setOnTopbarClickListener(new Topbar.topbarClickListener() {
             @Override
             public void leftClick() {//左边
-                Toast.makeText(TopbarAcivity.this,"你点击了左边",Toast.LENGTH_SHORT).show();
+                Toast.makeText(TopbarAcivity.this, "你点击了左边", Toast.LENGTH_SHORT).show();
             }
 
             @Override
             public void rightClick() {//右边
-                Toast.makeText(TopbarAcivity.this,"你点击了→_→",Toast.LENGTH_SHORT).show();
+                Toast.makeText(TopbarAcivity.this, "你点击了→_→", Toast.LENGTH_SHORT).show();
             }
         });
 
