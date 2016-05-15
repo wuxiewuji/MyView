@@ -1,6 +1,7 @@
 # MyView
-![image](https://github.com/YourAcountName/ProjectName/blob/master/GIFName.gif ) 
-
+![image](https://github.com/wuxiewuji/MyView/blob/master/GitHub/app/img/L%24T%7BE%40LNNX%25AGL51H4BB%248R.png) 
+![image](https://github.com/wuxiewuji/MyView/blob/master/GitHub/app/img/N%40F31X7A)(%40)7U0PWB%5DTRDP.png ) 
+![image](https://github.com/wuxiewuji/MyView/blob/master/GitHub/app/img/Screenshot_20160515-165244.png ) 
 xml布局使用方法
   
      <com.xxf.myviewutils.customview.Topbar
