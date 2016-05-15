@@ -1,4 +1,6 @@
 # MyView
+![image](https://github.com/YourAcountName/ProjectName/blob/master/GIFName.gif ) 
+
 xml布局使用方法
   
      <com.xxf.myviewutils.customview.Topbar
