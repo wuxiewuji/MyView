@@ -8,17 +8,25 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-       <LinearLayout
-           android:layout_width="match_parent"
-           android:layout_height="match_parent"
-           android:orientation="vertical">
-           <Button
-               android:id="@+id/top_bar"
-               style="@style/BtnStyle"
-               android:text="TopBar"
-               android:gravity="center"
-               android:onClick="onClick"
-               />
-       </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/top_bar"
+                style="@style/BtnStyle"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="TopBar" />
+
+            <Button
+                android:id="@+id/indicator"
+                style="@style/BtnStyle"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="ViewPagerIndicator" />
+        </LinearLayout>
     </ScrollView>
 </RelativeLayout>

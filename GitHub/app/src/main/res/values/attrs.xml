@@ -26,4 +26,8 @@
         <attr name="leftVisibility" format="boolean"/>
         <attr name="rightVisibility" format="boolean"/>
     </declare-styleable>
+
+    <declare-styleable name="ViewPagerIndicator">
+        <attr name="visable_tab_count" format="integer"/>
+    </declare-styleable>
 </resources>

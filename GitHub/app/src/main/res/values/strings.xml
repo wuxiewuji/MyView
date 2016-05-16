@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">MyViewUtils</string>
     <string name="title_activity_topbar">TopbarActivity</string>
+    <string name="title_activity_indicator">IndicatorActivity</string>
 </resources>

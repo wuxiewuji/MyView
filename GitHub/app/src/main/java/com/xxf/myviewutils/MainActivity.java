@@ -29,6 +29,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.top_bar://自定义Topbar演示界面
                 intent=new Intent(this,TopbarAcivity.class);
                 break;
+            case R.id.indicator://自定义ViewPagerIndicator演示页面
+                intent=new Intent(this,IndicatorActivity.class);
+                break;
         }
         if(intent!=null)
             startActivity(intent);
