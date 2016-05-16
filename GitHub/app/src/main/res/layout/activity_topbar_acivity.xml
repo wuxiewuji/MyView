@@ -24,7 +24,7 @@
         app:rightVisibility="true"设置右边的。。。可以代码控制
 
     -->
-    <com.xxf.myviewutils.customview.Topbar
+    <com.xxf.myviewutils.customview.TopbarView.Topbar
         android:id="@+id/custom_tv"
         android:layout_width="match_parent"
         android:layout_height="45dp"

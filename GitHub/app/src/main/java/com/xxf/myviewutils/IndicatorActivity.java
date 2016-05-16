@@ -6,7 +6,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 
-import com.xxf.myviewutils.customview.Indicator.HSCrollIndicator;
+import com.xxf.myviewutils.customview.IndicatorView.HSCrollIndicator;
 import com.xxf.myviewutils.fragment.VpSimpleFragment;
 
 import java.util.ArrayList;

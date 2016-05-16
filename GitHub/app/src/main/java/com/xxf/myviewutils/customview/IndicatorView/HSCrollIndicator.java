@@ -1,12 +1,9 @@
-package com.xxf.myviewutils.customview.Indicator;
+package com.xxf.myviewutils.customview.IndicatorView;
 
 import android.content.Context;
-import android.content.res.TypedArray;
 import android.support.v4.view.ViewPager;
 import android.util.AttributeSet;
 import android.widget.HorizontalScrollView;
-
-import com.xxf.myviewutils.R;
 
 import java.util.List;
 

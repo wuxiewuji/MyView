@@ -1,4 +1,4 @@
-package com.xxf.myviewutils.customview.Indicator;
+package com.xxf.myviewutils.customview.IndicatorView;
 
 import android.content.Context;
 import android.content.res.TypedArray;

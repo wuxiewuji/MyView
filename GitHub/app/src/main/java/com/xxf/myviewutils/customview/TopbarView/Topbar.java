@@ -1,4 +1,4 @@
-package com.xxf.myviewutils.customview;
+package com.xxf.myviewutils.customview.TopbarView;
 
 import android.content.Context;
 import android.content.res.TypedArray;
