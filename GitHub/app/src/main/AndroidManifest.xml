@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".TopbarAcivity" />
-        <activity android:name=".IndicatorActivity"></activity>
+        <activity android:name=".IndicatorActivity" />
+        <activity android:name=".SlidingMenuActivity"></activity>
     </application>
 
 </manifest>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--组合菜单-->
     <declare-styleable name="Topbar">
         <!--左边的样式整体-->
             <!--左边整体背景-->
@@ -26,8 +27,13 @@
         <attr name="leftVisibility" format="boolean"/>
         <attr name="rightVisibility" format="boolean"/>
     </declare-styleable>
-
+    <!--ViewPagerIndercator-->
     <declare-styleable name="ViewPagerIndicator">
         <attr name="visable_tab_count" format="integer"/>
+    </declare-styleable>
+    <!--SlidingMenu,和上面写法一样，只是这样更规范-->
+    <attr name="rightPading" format="dimension"/>
+    <declare-styleable name="SlidingMenu">
+        <attr name="rightPading" />
     </declare-styleable>
 </resources>

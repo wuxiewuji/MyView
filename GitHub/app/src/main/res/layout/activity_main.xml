@@ -27,6 +27,13 @@
                 android:gravity="center"
                 android:onClick="onClick"
                 android:text="ViewPagerIndicator" />
+
+            <Button
+                android:id="@+id/sliding_menu"
+                style="@style/BtnStyle"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="SlidingMenu" />
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>

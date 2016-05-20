@@ -6,6 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+import com.xxf.myviewutils.customview.slidingmenu.SlidingMenu;
+
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
@@ -31,6 +33,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.indicator://自定义ViewPagerIndicator演示页面
                 intent=new Intent(this,IndicatorActivity.class);
+                break;//自定义SlidingMeu
+            case R.id.sliding_menu:
+                intent=new Intent(this,SlidingMenuActivity.class);
                 break;
         }
         if(intent!=null)

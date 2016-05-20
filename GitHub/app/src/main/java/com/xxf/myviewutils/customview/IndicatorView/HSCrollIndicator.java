@@ -87,7 +87,7 @@ public class HSCrollIndicator extends HorizontalScrollView {
             this.smoothScrollTo((position - (ln.mTabVisableCount - 1)) * tabWidth + (int) (tabWidth * positionOffset),0);
         }
 
-        invalidate();//便宜完成调用重回方法
+        invalidate();//偏移完成调用重回方法
 
     }
 
